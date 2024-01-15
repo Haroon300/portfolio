@@ -8,7 +8,7 @@ export default function Home() {
       <Navbar />
       <header className="h-1/2 w-full relative overflow-hidden">
         <VideoPlayer />
-        <div className="absolute top-24 left-10 p-2">
+        <div className="absolute top-24 right-28 p-2">
           <Info />
         </div>
       </header>
@@ -33,7 +33,7 @@ const VideoPlayer = () => {
         playsInline
         className="w-full h-full object-cover"
       >
-        <source src="/video.mp4" type="video/mp4" />
+        <source src="/video1.mp4" type="video/mp4" />
       </video>
     </div>
   );
