@@ -6,7 +6,7 @@ export const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="bg-gray-800 text-white">
+    <nav className="bg-black bg-opacity-85 sticky top-0 text-white">
       <div className="container mx-auto flex items-center justify-between p-4">
         <div className="flex items-center">
           <div className="text-xl font-bold mr-4">Logo</div>
