@@ -1,6 +1,7 @@
 import { Info } from "./component/contan";
 import { Education } from "./component/education";
 import { Navbar } from "./component/navbar";
+import Skills from "./component/skills";
 
 export default function Home() {
   return (
@@ -16,19 +17,8 @@ export default function Home() {
         <div className="md:flex flex-col bg-white rounded-lg p-4">
           <Education />
         </div>
-        <div className="flex justify-center items-center bg-white">
-          <div>
-            <h1>Skills</h1>
-            <p>Nextjs</p>
-            <p>React</p>
-            <p>PHP</p>
-            <p>C#</p>
-            <p>Firebase</p>
-            <p>MongoDB</p>
-            <p>MYSQL</p>
-            <p>HTML</p>
-            <p>CSS</p>
-          </div>
+        <div className="p-4  rounded-md">
+          <Skills/>        
         </div>
       </div>
     </div>
@@ -50,3 +40,5 @@ const VideoPlayer = () => {
     </div>
   );
 };
+
+
