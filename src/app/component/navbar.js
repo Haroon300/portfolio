@@ -41,7 +41,7 @@ export const Navbar = () => {
         </div>
         {/* Mobile Menu */}
         {navbar && (
-          <div className="md:hidden absolute top-16 right-4 bg-gray-800 p-4">
+          <div className="md:hidden absolute top-16 right-4 bg-black bg-opacity-85 p-4">
             <NavLinkMobile href="/">Home</NavLinkMobile>
             <NavLinkMobile href="/projects">Projects</NavLinkMobile>
             <NavLinkMobile href="/about">About</NavLinkMobile>
