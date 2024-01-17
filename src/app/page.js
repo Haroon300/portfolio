@@ -14,14 +14,26 @@ export default function Home() {
       </header>
       <div className="mt-8 px-4 md:px-8">
         <div className="md:flex flex-col bg-white rounded-lg p-4">
-          <Education/>          
+          <Education />
+        </div>
+        <div className="flex justify-center items-center bg-white">
+          <div>
+            <h1>Skills</h1>
+            <p>Nextjs</p>
+            <p>React</p>
+            <p>PHP</p>
+            <p>C#</p>
+            <p>Firebase</p>
+            <p>MongoDB</p>
+            <p>MYSQL</p>
+            <p>HTML</p>
+            <p>CSS</p>
+          </div>
         </div>
       </div>
     </div>
   );
 }
-
-
 
 const VideoPlayer = () => {
   return (
